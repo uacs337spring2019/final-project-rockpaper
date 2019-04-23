@@ -1,0 +1,64 @@
+/*
+Matthew Chambers
+CSC 345, Spring 2019
+Homework 2
+
+adds some minor style to the rockPaper.html
+*/
+
+body {
+	font-family:  Georgia, "Times new Roman", serif;
+	background-color: #EEEEEE;
+	text-align: center;
+}
+
+
+.gameHolder {
+	text-align: left;
+	background-color:  #FFFFFF;
+	border: 2px #CCCCCC solid;
+	border-radius: 20px;
+	padding: 5px;	
+}
+
+
+#logInConsol, #LobbyConsol {
+	vertical-align: middle;
+	text-align: center;
+	display: inline-flex;
+	
+}
+
+button{
+	display: block;
+}
+
+#logIn, #newUser{
+	text-align: left;
+	background-color:  aqua;
+	border: 2px #CCCCCC solid;
+	border-radius: 20px;
+	overflow:hidden;
+	
+}
+
+
+
+#newGame, #optionsButtons {
+	overflow:hidden;
+	vertical-align: middle;
+	text-align: center;
+	background-color: aqua;
+	border: 2px #CCCCCC solid;
+	border-radius: 20px;
+	
+}
+
+#waitingGames {
+	text-align: left;
+	background-color:  teal;
+	border: 2px #CCCCCC solid;
+	border-radius: 20px;
+	
+}
+
